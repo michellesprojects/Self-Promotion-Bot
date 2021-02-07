@@ -1,7 +1,7 @@
 import praw
 import time
 
-
+#Note: to get the client_id and client_secret go to https://www.reddit.com/prefs/apps and create a personal use script application. 
 reddit = praw.Reddit(client_id="your-client-id-here",
                      client_secret="your-client-secret-here",
                      password="your-reddit-password-here",
